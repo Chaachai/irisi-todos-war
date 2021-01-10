@@ -56,7 +56,7 @@ class TodoDaoTest {
     @DisplayName("Test deleteTodo")
     void testdeleteTodo() {
         // Setup our mock repository
-        System.out.println("Test unitaire de la methode deleteTodo");  
+        System.out.println("Test unitaire de la methode deleteTodo()");  
     }
 
 	
