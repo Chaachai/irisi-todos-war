@@ -1,5 +1,5 @@
-# Pull base image 
+# Pull image de tomcat server
 From tomcat:8-jre8 
 
-# copy war file on to container 
+# copier le fichier war vers le serveur web tomcat
 COPY ./todos-irisi.war /usr/local/tomcat/webapps
