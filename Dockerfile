@@ -1,3 +1,5 @@
-FROM tomcat:8.0.51-jre8-alpine
-COPY ./target/irisi-todos.war /usr/local/tomcat/webapps/irisi-todos.war
-CMD ["catalina.sh","run"]
+# Pull image de tomcat server
+From tomcat:8-jre8 
+
+# copier le fichier war vers le serveur web tomcat
+COPY ./irisi-todos.war /usr/local/tomcat/webapps
